@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UpdateFragment"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="32dp"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/tv_update_tarefa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_att_tarefa"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edit_update_tarefa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:maxLines="2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/tv_update_tarefa"
+            app:layout_constraintStart_toStartOf="@+id/tv_update_tarefa"
+            app:layout_constraintTop_toBottomOf="@+id/tv_update_tarefa"
+            android:autofillHints="name"
+            tools:ignore="LabelFor"
+            android:inputType="text" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_update_tarefa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/edit_update_tarefa"
+            app:layout_constraintStart_toStartOf="@+id/edit_update_tarefa"
+            app:layout_constraintTop_toBottomOf="@+id/edit_update_tarefa" />
+
+        <Button
+            android:id="@+id/bt_update_tarefa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/bt_update_tarefa"
+            app:layout_constraintEnd_toEndOf="@+id/switch_update_tarefa"
+            app:layout_constraintStart_toStartOf="@+id/switch_update_tarefa"
+            app:layout_constraintTop_toBottomOf="@+id/switch_update_tarefa" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

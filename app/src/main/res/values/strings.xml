@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="tv_adicionar_tarefa">Adicionar Tarefa</string>
+    <string name="tv_att_tarefa">Atualizar Tarefa</string>
+    <string name="tarefa_concluida">Tarefa Concluída</string>
+    <string name="tarefa_a_fazer">Tarefa à Fazer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tarefa_atualizada">Tarefa Atualizada</string>
+    <string name="warning_digite_uma_tarefa">Por favor digite uma tarefa</string>
+    <string name="tarefa_adicionada">Tarefa Adicionada</string>
+    <string name="tarefa_excluida">Tarefa Excluída</string>
+    <string name="fab_content_description">adiciona nova tarefa</string>
+    <string name="tvlabel_nova_tarefa">Nova Tarefa</string>
+    <string name="edit_nova_tarefa">Digite a sua tarefa</string>
+    <string name="bt_nova_tarefa">Salvar Tarefa</string>
+    <string name="bt_salvar_tarefa">Adicionar</string>
+    <string name="bt_update_tarefa">Atualizar</string>
+    <string name="Item_tv_hint">testando</string>
+</resources>
