@@ -5,7 +5,6 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "table_todo")
 class ToDo (
-
     var tarefa: String,
     var status : Boolean = false)
 {

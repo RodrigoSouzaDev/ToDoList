@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.navigation.Navigation
+import androidx.recyclerview.widget.RecyclerView
 import com.example.todolist.R
 import com.example.todolist.adapter.ToDoAdapter
 import com.example.todolist.databinding.FragmentMainBinding
@@ -31,7 +32,6 @@ class MainFragment : Fragment()
 
         onClickFab()
         setRecycler()
-        //setObservers()
 
         return binding.root
     }
@@ -63,6 +63,7 @@ class MainFragment : Fragment()
     private fun onCBoxClicked(): (ToDo) -> Unit {
         return { todo: ToDo ->
                     viewModel.updateToDo(todo)
+                    val recycler : RecyclerView
                 }
     }
 
@@ -72,9 +73,8 @@ class MainFragment : Fragment()
         binding.recycler.apply {
             setHasFixedSize(true)
             adapter = recyclerAdapter
-
-            setObservers()
         }
+        setObservers()
     }
 
     @SuppressLint("NotifyDataSetChanged")
