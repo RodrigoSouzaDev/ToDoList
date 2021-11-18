@@ -5,6 +5,7 @@ import com.example.todolist.model.ToDo
 import kotlinx.coroutines.flow.Flow
 
 class ToDoRepositoryImpl(private val database: ToDoDatabase) : ToDoRepository {
+
     override fun getToDos(): Flow<List<ToDo>> {
         //return allToDos
         return database.toDoDao().getAllToDo()

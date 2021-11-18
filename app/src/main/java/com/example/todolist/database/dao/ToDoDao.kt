@@ -21,5 +21,4 @@ interface ToDoDao
 
     @Query("SELECT * FROM table_todo WHERE id = :id")
     fun getToDo(id:Int): Flow<ToDo>
-
 }

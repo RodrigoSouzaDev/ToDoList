@@ -9,13 +9,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/activity_add_todo.xml" value="0.20416666666666666" />
-        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/activity_update.xml" value="0.22" />
         <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/dialoglayout.xml" value="0.1" />
         <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/fragment_add.xml" value="0.33" />
-        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/fragment_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/fragment_update.xml" value="0.25" />
-        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/item_recycler.xml" value="0.25" />
+        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/fragment_update.xml" value="0.5" />
+        <entry key="..\:/ProjetosAndroid/ToDoList/app/src/main/res/layout/item_recycler.xml" value="0.33" />
       </map>
     </option>
   </component>
